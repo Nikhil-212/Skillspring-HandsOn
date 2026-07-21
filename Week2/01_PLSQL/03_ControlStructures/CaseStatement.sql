@@ -1,0 +1,11 @@
+DECLARE
+    grade CHAR(1) := 'A';
+BEGIN
+    CASE grade
+        WHEN 'A' THEN DBMS_OUTPUT.PUT_LINE('Excellent');
+        WHEN 'B' THEN DBMS_OUTPUT.PUT_LINE('Good');
+        WHEN 'C' THEN DBMS_OUTPUT.PUT_LINE('Average');
+        ELSE DBMS_OUTPUT.PUT_LINE('Needs improvement');
+    END CASE;
+END;
+/
