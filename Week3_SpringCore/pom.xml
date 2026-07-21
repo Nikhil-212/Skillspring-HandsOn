@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cognizant.week3</groupId>
+  <artifactId>week3-spring-core</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>01_MavenIntroduction</module>
+    <module>02_SpringIOC</module>
+    <module>03_XMLBeanConfiguration</module>
+    <module>04_ConstructorInjection</module>
+    <module>05_SetterInjection</module>
+    <module>06_AnnotationConfiguration</module>
+    <module>07_Autowiring</module>
+    <module>08_JavaConfiguration</module>
+    <module>09_BeanScopes</module>
+    <module>10_SpringAOP</module>
+    <module>11_SpringMVC</module>
+  </modules>
+</project>
