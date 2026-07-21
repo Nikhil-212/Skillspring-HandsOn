@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion><groupId>com.cognizant</groupId><artifactId>week5-spring-rest</artifactId><version>1.0.0</version><packaging>pom</packaging>
+  <modules>
+    <module>01_RESTIntroduction</module>
+    <module>02_GETAPI</module>
+    <module>03_POSTAPI</module>
+    <module>04_PUTAPI</module>
+    <module>05_DELETEAPI</module>
+    <module>06_PathVariables</module>
+    <module>07_RequestParameters</module>
+    <module>08_RequestBody</module>
+    <module>09_ExceptionHandling</module>
+    <module>10_Validation</module>
+    <module>11_ResponseEntity</module>
+    <module>12_MiniRESTProject</module>
+  </modules>
+</project>

@@ -1,0 +1,4 @@
+package com.cognizant.week5.mini;
+
+import java.util.List; import org.springframework.stereotype.Service;
+@Service public class EmployeeService { private final EmployeeRepository repository; public EmployeeService(EmployeeRepository repository) { this.repository = repository; } public List<Employee> all() { return repository.findAll(); } public Employee add(Employee employee) { return repository.save(employee); } public Employee update(Long id, Employee input) { Employee employee = repository.findById(id).orElseThrow(); employee.setName(input.getName()); employee.setDepartment(input.getDepartment()); return repository.save(employee); } public void delete(Long id) { repository.deleteById(id); } public List<Employee> search(String name) { return repository.findByNameContaining(name); } public List<Employee> department(String department) { return repository.findByDepartment(department); } }

@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion><groupId>com.cognizant</groupId><artifactId>week4-spring-data-jpa-hibernate</artifactId><version>1.0.0</version><packaging>pom</packaging>
+  <modules>
+    <module>01_JPAIntroduction</module>
+    <module>02_EntityMapping</module>
+    <module>03_CRUDOperations</module>
+    <module>04_CustomQueries</module>
+    <module>05_OneToOneMapping</module>
+    <module>06_OneToManyMapping</module>
+    <module>07_ManyToManyMapping</module>
+    <module>08_HibernateConfiguration</module>
+    <module>09_HibernateCRUD</module>
+    <module>10_MiniEmployeeManagement</module>
+  </modules>
+</project>

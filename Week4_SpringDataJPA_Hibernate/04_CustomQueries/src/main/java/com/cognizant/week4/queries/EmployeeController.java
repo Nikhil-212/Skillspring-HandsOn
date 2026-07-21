@@ -1,0 +1,4 @@
+package com.cognizant.week4.queries;
+
+import java.util.List; import org.springframework.web.bind.annotation.GetMapping; import org.springframework.web.bind.annotation.RequestMapping; import org.springframework.web.bind.annotation.RequestParam; import org.springframework.web.bind.annotation.RestController;
+@RestController @RequestMapping("/employees") public class EmployeeController { private final EmployeeRepository repository; public EmployeeController(EmployeeRepository repository) { this.repository = repository; } @GetMapping("/by-name") public List<Employee> byName(@RequestParam String name) { return repository.findByName(name); } @GetMapping("/by-department") public List<Employee> byDepartment(@RequestParam String department) { return repository.findByDepartment(department); } @GetMapping("/high-salary") public List<Employee> highSalary(@RequestParam double salary) { return repository.findBySalaryGreaterThan(salary); } }
