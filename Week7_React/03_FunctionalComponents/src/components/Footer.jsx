@@ -1,0 +1,1 @@
+export default function Footer() { return <footer className="card"><p>Footer Component</p></footer>; }

@@ -1,0 +1,1 @@
+export default function StudentCard() { return <div className="card"><p>Student Card Component</p></div>; }

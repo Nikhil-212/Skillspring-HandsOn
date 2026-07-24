@@ -1,0 +1,1 @@
+export default function About() { return <div className="card"><h2>About Page</h2></div>; }

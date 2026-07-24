@@ -1,0 +1,1 @@
+export default function Navbar() { return <nav className="card"><h3>Navbar</h3></nav>; }
