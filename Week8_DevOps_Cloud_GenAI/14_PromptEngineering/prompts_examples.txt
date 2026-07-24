@@ -1,0 +1,5 @@
+Zero-shot Prompt: Translate the following English text to French: 'Hello world'
+One-shot Prompt: Translate the following English text to French: 'Apple' -> 'Pomme'. 'Hello world' -> 
+Few-shot Prompt: English to French: 'Apple' -> 'Pomme', 'Cat' -> 'Chat', 'Dog' -> 'Chien', 'Hello world' ->
+Chain-of-Thought Prompt: Let's think step by step to solve 15 * 12. First, 15 * 10 = 150. Then 15 * 2 = 30. Finally, 150 + 30 = 180.
+Role-based Prompt: Act as a Senior Java Developer and explain the use of the final keyword.

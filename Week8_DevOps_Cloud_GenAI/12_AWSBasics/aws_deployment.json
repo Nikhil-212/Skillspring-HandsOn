@@ -1,0 +1,6 @@
+{
+  "EC2": "t2.micro instance with Amazon Linux 2",
+  "S3": "Bucket for static assets",
+  "RDS": "MySQL 8.0 db.t3.micro",
+  "ElasticBeanstalk": "Java 17 Corretto platform"
+}
